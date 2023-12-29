@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ryan Lagasse</title>
+    <link rel="icon" type="image/png" href="giphy.gif", radius="50%">
+
+    <style>
+      body {
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        overflow-y: scroll;
+        color: #5e5f62;
+        background-image: url('9.gif');
+        background-size: 130% 160%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: -225px -200px;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      .column {
+        width: 48%;
+        margin-bottom: 20px;
+      }
+
+      .circle img {
+        border-radius: 50%;
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        
+      }
+      h1 {
+        font-size: 48px;
+        margin: 0;
+        line-height: 1.5;
+      }
+      p {
+        margin: 0;
+        line-height: 1.5;
+      }
+      .about-me {
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 24px;
+      }
+      .about-me p:first-child {
+        font-weight: bold;
+      }
+      .box {
+        width: 100%;
+        height: 200px;
+        background-color: #ffffff;
+        margin-bottom: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .box h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      .box p {
+        font-size: 18px;
+        margin: 0;
+      }
+      .box a {
+        color: #758beb;
+        text-decoration: none;
+        font-size: 18px;
+        margin-top: 10px;
+      }
+      .box a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="column">
+        <h1>Hello 👋 <br>I'm <span style="color: #758beb;">Ryan</span></h1>
+        <div class="about-me">
+          <p><br>I am a passionate LLM and Machine Learning researcher and Engineer ready to bring datascience and intuition together to solve the worlds problems</p>
+        </div>
+        <!-- Add more content here -->
+      </div>
+      <div class="column">
+        <div class="circle">
+          <img src="WebsitePic3.png" alt="Picture of Ryan Lagasse" height="300" width="300">
+        </div>
+      </div>
+      <div class="column">
+        <div class="box">
+          <h2>ML Models</h2>
+          <p>Collection of ML models</p>
+          <a href="https://github.com/RyanLagasse/Machine-Learning" target="_blank"><img src="github-icon.png" alt="GitHub icon" height="40" width="40"></a>
+        </div>
+        <div class="box">
+          <h2>Quant LLM Model</h2>
+          <p>Description of project 2</p>
+          <a href="https://github.com/RyanLagasse/Deep-Learning-Model-and-Natural-Language-Analysis-of-Stocks" target="_blank"><img src="github-icon.png" alt="GitHub icon" height="40" width="40"></a>
+        </div>
+      </div>
+      <div class="column">
+        <div class="box">
+          <h2>Aclara Test AI</h2>
+          <p>Description of project 3</p>
+          <a href="https://github.com/RyanLagasse/HubbellTestingAI" target="_blank"><img src="github-icon.png" alt="GitHub icon" height="40" width="40"></a>
+        </div>
+        <div class="box">
+          <h2>Stock Scraper</h2>
+          <p>Description of project 4</p>
+          <a href="" target="_blank"><img src="github-icon.png" alt="GitHub icon" height="40" width="40"></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
